@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font: 62.5%;
+}
+
+.icons{
+    display:flex;
+    gap:2rem;
+    padding: 2rem 0;
+    color: white; 
+    font-size: 2.2rem;
+    /* gap: 2rem; */
+}
+.copyright, .contactus-column{
+    color: #ddd;
+    font-size: 1.5rem;
+    
+}
+.footer-title{color: #eee;
+font-size: 2.2rem;}
+.footer-container{
+    background:#333;
+    padding: 6rem 4.4rem;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+    
+}
+
+.logo-img
+{
+width: 180px;
+object-fit: cover;
+/* border-radius: 50%; */
+height: 80px;
+}
+
+p span{
+    display: block;
+}

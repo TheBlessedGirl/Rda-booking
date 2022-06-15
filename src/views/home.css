@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font: 62.5%;
+}
+.Carousel-img{margin:0 auto;
+    width: 40%;}
+.heading-title{color: white;
+text-transform: uppercase;
+font-size: 1.4rem;
+letter-spacing: 1px;
+text-shadow: 3px 3px 3px chocolate;
+text-align: center;
+padding-top: 1.2rem;
+}
+.Carousel-img{
+    height: 300px;
+    margin-bottom: 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: -0.8rem;
+}
+.align{
+    background: green;
+    color: rgb(50, 24, 165);
+    height: 0.5rem;
+    margin-left: 35rem;
+    width: 7rem;
+    line-height: -4rem;
+    /* margin:0 auto; */
+    margin-top: 20rem;
+    border: none;
+}
+.home-container{
+    background-image: url("../assets/images/bg.jpg");
+    background-position: center center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: cover;
+    height: 50rem;
+
+}
+.toptour{
+    color: white;
+    font-size:2.2rem;
+    text-align: center;
+    font-weight: 900;
+}
